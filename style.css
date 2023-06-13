@@ -587,6 +587,10 @@ body{
       object-fit: cover;
       height: 350px;
    }
+
+   .footer__block{
+      flex-direction: column-reverse;
+   }
  }
 
 @media (max-width: 767.98px) { 
