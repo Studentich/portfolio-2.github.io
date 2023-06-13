@@ -545,3 +545,148 @@ body{
    color: rgb(132, 132, 132);
    border-bottom: solid 1px rgb(132, 132, 132);
 }
+
+
+
+
+@media (max-width: 575.98px) { 
+   nav{
+      display: none;
+   }
+
+   .explorations__image img{
+      width: 100%;
+   }
+
+   .project__image img{
+      width: 100%;
+   }
+
+   .footer__social{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+
+   .footer__social a{
+      margin-bottom: 10px;
+   }
+
+   .conclusion__suptitle{
+      font-size: 26px;
+   }
+   .conclusion__caption{
+      margin-bottom: 30px;
+   }
+
+   .conclusion__block{
+      margin-bottom: 30px;
+   }
+
+   .work-image img{
+      object-fit: cover;
+      height: 350px;
+   }
+ }
+
+@media (max-width: 767.98px) { 
+   .header{
+      margin-bottom: 80px;
+   }
+
+   .main__welcome{
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-bottom: 50px;
+   }
+
+   .title__welcome{
+      font-size: 52px;
+      text-align: center;
+   }
+
+   .suptitle{
+      text-align: center;
+   }
+
+   .btn__block{
+      display: flex;
+      justify-content: center;
+   }
+
+   .welcome__photo{
+      margin-bottom: 20px;
+   }
+
+   .welcome__photo img{
+      width: 100%;
+   }
+
+
+   .featured__image{
+      margin-bottom: 150px;
+   }
+
+   .explorations__content{
+      margin-bottom: 150px;
+   }
+
+   .featured__image{
+      flex-direction: column;
+   }
+
+   .image__column{
+      justify-content: center;
+      align-items: center;
+   }
+
+   .column__right{
+      margin-top: 0px;
+   }
+
+
+   .covide__row{
+      flex-wrap: wrap;
+   }
+
+   .covide__item{
+      flex: 0 1 50%;
+      margin-bottom: 50px;
+   }
+
+ }
+
+@media (max-width: 991.98px) { 
+   .title__welcome{
+      font-size: 52px;
+   }
+
+   .solution__image img{
+      width: 100%;
+   }
+}
+
+
+@media (max-width: 1051px){
+   .reverse{
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .solution__row{
+      align-items: center;
+      flex-direction: column-reverse;
+   }
+
+   .solution__caption{
+      max-width: 100%;
+      margin-bottom: 20px;
+   }
+
+}
+
+@media (max-width: 1199.98px) { 
+   .container{
+      padding: 0 20px;
+   }
+}
